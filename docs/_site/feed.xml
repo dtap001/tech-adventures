@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/tech-adventures/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tech-adventures/" rel="alternate" type="text/html" /><updated>2024-11-01T13:22:28+01:00</updated><id>http://localhost:4000/tech-adventures/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Certificates in and outs</title><link href="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html" rel="alternate" type="text/html" title="Certificates in and outs" /><published>2024-11-01T10:32:20+01:00</published><updated>2024-11-01T10:32:20+01:00</updated><id>http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs</id><content type="html" xml:base="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html"><![CDATA[<h2 id="what-is-this">What is this?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/tech-adventures/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tech-adventures/" rel="alternate" type="text/html" /><updated>2024-11-01T16:27:12+01:00</updated><id>http://localhost:4000/tech-adventures/feed.xml</id><title type="html">My Tech Adventures 🔥 - David Tapai @ Techlead</title><subtitle>This is the blog of my noteworthy technical journeys and adventures as a developer and techlead.</subtitle><entry><title type="html">Certificates in and outs</title><link href="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html" rel="alternate" type="text/html" title="Certificates in and outs" /><published>2024-11-01T10:32:20+01:00</published><updated>2024-11-01T10:32:20+01:00</updated><id>http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs</id><content type="html" xml:base="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html"><![CDATA[<h2 id="what-is-this">What is this?</h2>
 
 <p>My humble summary regarding every important aspect of the certificates that a developer likely will encounter.</p>
 
@@ -22,7 +22,7 @@
 
 <h4 id="flow">Flow</h4>
 
-<p><img src="/assets/certs-in-and-outs/asymetrics-flow.jpg" alt="asymetrics flow" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/asymetrics-flow.jpg" alt="asymetrics flow" /></p>
 
 <p>In very oversimplified manner this happens</p>
 
@@ -37,7 +37,7 @@
 
 <hr />
 
-<p><img src="/assets/certs-in-and-outs/private-public-key.jpg" alt="certs-in-and-outs" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/private-public-key.jpg" alt="certs-in-and-outs" /></p>
 
 <hr />
 
@@ -63,7 +63,7 @@ companies (i.e. subjects) bearing that subject’s public key</li>
   <li>maintains <a href="https://www.techtarget.com/searchsecurity/definition/Certificate-Revocation-List">certificate revocation lists</a>.⛔</li>
 </ul>
 
-<p><img src="/assets/certs-in-and-outs/Pasted image 20230712170056.png" alt="certs-in-and-outs" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/Pasted image 20230712170056.png" alt="certs-in-and-outs" /></p>
 
 <h3 id="chain-of-thrust">Chain of thrust</h3>
 
@@ -116,7 +116,7 @@ companies (i.e. subjects) bearing that subject’s public key</li>
 
 <p>Decoder <a href="https://ssltools.godaddy.com/views/csrDecoder">https://ssltools.godaddy.com/views/csrDecoder</a></p>
 
-<p><img src="/assets/certs-in-and-outs/Pasted image 20230712181327.png" alt="certs-in-and-outs" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/Pasted image 20230712181327.png" alt="certs-in-and-outs" /></p>
 
 <hr />
 
@@ -132,14 +132,14 @@ This standard make possible to  that information within a digital certificate ar
 
 <h4 id="data-section">Data Section</h4>
 
-<p><img src="/assets/certs-in-and-outs/Pasted image 20230712164200.png" alt="certs-in-and-outs" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/Pasted image 20230712164200.png" alt="certs-in-and-outs" /></p>
 
 <h4 id="signature-section">Signature Section</h4>
 
 <ul>
   <li>The cipher algorithm – the algorithm used by the issuer to create a digital signature</li>
   <li>The digital signature for the CA – a hash of all the information in the certificate encrypted with the CA private key
-<img src="/assets/certs-in-and-outs/Pasted image 20230712170609.png" alt="certs-in-and-outs" /></li>
+<img src="/tech-adventures/assets/certs-in-and-outs/Pasted image 20230712170609.png" alt="certs-in-and-outs" /></li>
 </ul>
 
 <h2 id="certificate-formats">Certificate formats</h2>
@@ -162,7 +162,7 @@ This standard make possible to  that information within a digital certificate ar
       • Use: When the CA wants to deliver multiple certificates to a destination</li>
 </ul>
 
-<p><img src="/assets/certs-in-and-outs/Pasted image 20230712170647.png" alt="certs-in-and-outs" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/Pasted image 20230712170647.png" alt="certs-in-and-outs" /></p>
 
 <hr />
 

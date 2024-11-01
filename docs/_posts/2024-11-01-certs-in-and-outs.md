@@ -25,7 +25,7 @@ My humble summary regarding every important aspect of the certificates that a de
 
 #### Flow
 
-![asymetrics flow](/assets/certs-in-and-outs/asymetrics-flow.jpg)
+![asymetrics flow]({{ site.baseurl }}/assets/certs-in-and-outs/asymetrics-flow.jpg)
 
 In very oversimplified manner this happens
 
@@ -41,7 +41,7 @@ In very oversimplified manner this happens
 
 ---
 
-![certs-in-and-outs](/assets/certs-in-and-outs/private-public-key.jpg)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/private-public-key.jpg)
 
 ---
 
@@ -61,7 +61,7 @@ companies (i.e. subjects) bearing that subject’s public key
 - verifies domain names and organizations to validate their identities; and
 - maintains [certificate revocation lists](https://www.techtarget.com/searchsecurity/definition/Certificate-Revocation-List).⛔
 
-![certs-in-and-outs](/assets/certs-in-and-outs/Pasted image 20230712170056.png)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/Pasted image 20230712170056.png)
 
 ### Chain of thrust
 
@@ -99,7 +99,7 @@ What is CSR (Certificate Signing Request)?
 
 Decoder <https://ssltools.godaddy.com/views/csrDecoder>
 
-![certs-in-and-outs](/assets/certs-in-and-outs/Pasted image 20230712181327.png)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/Pasted image 20230712181327.png)
 
 ---
 
@@ -113,13 +113,13 @@ Decoder <https://ssltools.godaddy.com/views/csrDecoder>
 
 #### Data Section
 
-![certs-in-and-outs](/assets/certs-in-and-outs/Pasted image 20230712164200.png)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/Pasted image 20230712164200.png)
 
 #### Signature Section
 
 - The cipher algorithm – the algorithm used by the issuer to create a digital signature
 - The digital signature for the CA – a hash of all the information in the certificate encrypted with the CA private key
-![certs-in-and-outs](/assets/certs-in-and-outs/Pasted image 20230712170609.png)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/Pasted image 20230712170609.png)
 
 ## Certificate formats
 
@@ -139,7 +139,7 @@ Decoder <https://ssltools.godaddy.com/views/csrDecoder>
         • One or more certificate packaged together but not signed or encrypted
         • Use: When the CA wants to deliver multiple certificates to a destination
 
-![certs-in-and-outs](/assets/certs-in-and-outs/Pasted image 20230712170647.png)
+![certs-in-and-outs]({{ site.baseurl }}/assets/certs-in-and-outs/Pasted image 20230712170647.png)
 
 ---
 
