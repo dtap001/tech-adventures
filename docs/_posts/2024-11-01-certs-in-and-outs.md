@@ -2,11 +2,46 @@
 layout: post
 title:  "Certificates in and outs"
 date:   2024-11-01 10:32:20 +0100
-categories: jekyll update
+categories: security webdev
+toc: true
 ---
+{% plantuml %}
+@startuml
+actor Client
+actor Server
 
+Client -> Server: Initiate Key Exchange
+activate Server
+Server -> Client: Send Public Key
+deactivate Server
+
+Client -> Client: Generate Session Key
+Client -> Server: Send Encrypted Session Key
+activate Server
+Server -> Server: Decrypt Session Key
+deactivate Server
+
+Client -> Server: Send Encrypted Data
+activate Server
+Server -> Server: Decrypt Data
+Server -> Client: Send Acknowledgment
+deactivate Server
+
+Client -> Server: Send Further Encrypted Data
+activate Server
+Server -> Server: Decrypt Further Data
+Server -> Client: Send Final Acknowledgment
+deactivate Server
+@enduml
+{% endplantuml %}{:style="display:block; margin-left:auto; margin-right:auto"}
 ## What is this?
 
+{% quote cite="Blaise Pascal, in Lettres provinciales"
+   url="https://en.wikipedia.org/wiki/Lettres_provinciales"
+%}
+  I have only made this letter longer because
+  I have not had the time to make it shorter.
+{% endquote %}
 My humble summary regarding every important aspect of the certificates that a developer likely will encounter.
 
 ### What is a certificate?
@@ -25,7 +60,7 @@ My humble summary regarding every important aspect of the certificates that a de
 
 #### Flow
 
-![asymetrics flow]({{ site.baseurl }}/assets/certs-in-and-outs/asymetrics-flow.jpg)
+![asymetrics flow]({{ site.baseurl }}/assets/certs-in-and-outs/asymetrics-flow.jpg){:style="display:block; margin-left:auto; margin-right:auto"}
 
 In very oversimplified manner this happens
 

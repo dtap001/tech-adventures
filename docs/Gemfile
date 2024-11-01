@@ -17,6 +17,9 @@ group :jekyll_plugins do
   gem "github-pages", "~> 232"
   gem "jekyll-theme-midnight", "~> 0.2.0"
   gem "jekyll-theme-minima"
+  gem 'jekyll-toc'
+  gem 'jekyll-plantuml', '1.4.2'
+  gem 'jekyll_quote'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

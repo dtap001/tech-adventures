@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/tech-adventures/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tech-adventures/" rel="alternate" type="text/html" /><updated>2024-11-01T16:27:12+01:00</updated><id>http://localhost:4000/tech-adventures/feed.xml</id><title type="html">My Tech Adventures 🔥 - David Tapai @ Techlead</title><subtitle>This is the blog of my noteworthy technical journeys and adventures as a developer and techlead.</subtitle><entry><title type="html">Certificates in and outs</title><link href="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html" rel="alternate" type="text/html" title="Certificates in and outs" /><published>2024-11-01T10:32:20+01:00</published><updated>2024-11-01T10:32:20+01:00</updated><id>http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs</id><content type="html" xml:base="http://localhost:4000/tech-adventures/jekyll/update/2024/11/01/certs-in-and-outs.html"><![CDATA[<h2 id="what-is-this">What is this?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/tech-adventures/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tech-adventures/" rel="alternate" type="text/html" /><updated>2024-11-01T18:05:56+01:00</updated><id>http://localhost:4000/tech-adventures/feed.xml</id><title type="html">My Tech Adventures 🔥 - David Tapai @ Techlead</title><subtitle>This is the blog of my noteworthy technical journeys and adventures as a developer and techlead.</subtitle><entry><title type="html">Certificates in and outs</title><link href="http://localhost:4000/tech-adventures/security/webdev/2024/11/01/certs-in-and-outs.html" rel="alternate" type="text/html" title="Certificates in and outs" /><published>2024-11-01T10:32:20+01:00</published><updated>2024-11-01T10:32:20+01:00</updated><id>http://localhost:4000/tech-adventures/security/webdev/2024/11/01/certs-in-and-outs</id><content type="html" xml:base="http://localhost:4000/tech-adventures/security/webdev/2024/11/01/certs-in-and-outs.html"><![CDATA[<p style="display:block; margin-left:auto; margin-right:auto"><object data="/tech-adventures/uml/47af8929fda43be4226607adf0b32d50.svg" type="image/svg+xml" class="plantuml"></object></p>
+<h2 id="what-is-this">What is this?</h2>
+
+<div class="quote">
+  
+  I have only made this letter longer because
+  I have not had the time to make it shorter.
+<span class="quoteAttribution"> &nbsp;&ndash; From <a href="https://en.wikipedia.org/wiki/Lettres_provinciales" rel="nofollow" target="_blank">Blaise Pascal, in Lettres provinciales</a></span>
+
+  
+</div>
 
 <p>My humble summary regarding every important aspect of the certificates that a developer likely will encounter.</p>
 
@@ -22,7 +32,7 @@
 
 <h4 id="flow">Flow</h4>
 
-<p><img src="/tech-adventures/assets/certs-in-and-outs/asymetrics-flow.jpg" alt="asymetrics flow" /></p>
+<p><img src="/tech-adventures/assets/certs-in-and-outs/asymetrics-flow.jpg" alt="asymetrics flow" style="display:block; margin-left:auto; margin-right:auto" /></p>
 
 <p>In very oversimplified manner this happens</p>
 
@@ -210,4 +220,4 @@ The reason why most people still refer to them as SSL certificates is basically 
 <blockquote>
   <p>What is HTTP<strong>S</strong>?!
 This is also where HTTPS comes in (HTTPS stands for “HTTP over SSL/TLS”).</p>
-</blockquote>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[What is this?]]></summary></entry></feed>
+</blockquote>]]></content><author><name></name></author><category term="security" /><category term="webdev" /><summary type="html"><![CDATA[]]></summary></entry></feed>
